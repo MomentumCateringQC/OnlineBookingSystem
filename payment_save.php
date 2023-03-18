@@ -31,7 +31,7 @@ $query = mysqli_query($con, "SELECT * FROM reservation natural join combo WHERE 
 
     $ch = curl_init();
     $parameters = array(
-        'apikey' => 'a169dfe21fa8a66401d1b8bb71183e30', //Your API KEY
+        'apikey' => '', //Your API KEY
         'number' => $contact,
         'message' => 'Thank you for your Choosing Momentum Catering. Please pay 50% Downpayment before we confirm your reservation',
         'sendername' => 'SEMAPHORE'
